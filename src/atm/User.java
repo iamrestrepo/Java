@@ -15,9 +15,6 @@ public class User {
     public User (String aName, String aLast){
         name = aName; 
         lastName = aLast; 
-        //id = anIDNumber;   // can i really include this here?  
-        //dOB = dayOfBirth; 
-    
     }
      
       public String getName(){
