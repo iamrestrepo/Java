@@ -16,7 +16,6 @@ public class BankAccount {
     
     public BankAccount(double balance, User user){  
         this.balance = balance;
-       // this.accountNumber = accountNumber; 
         this.user = user; 
   
     }
