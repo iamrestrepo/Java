@@ -20,7 +20,6 @@ public class atmMachine {
         BankAccount bankAcUser1 = new BankAccount(1000,user1);
         BankAccount bankAcUser2 = new BankAccount(200);
         System.out.println("This is your UniqueKey : " + user1.getUniqueKey()); 
-        //System.out.println("This is your Balance " + bankAcUser1.getBalance());
  
        
         
@@ -38,7 +37,6 @@ public class atmMachine {
 
             System.out.println("Please Enter your Unique Key"); 
             String Ukey = accountUniqueKey.next(); 
-            //System.out.println("your unique Key was: " + Ukey);
 
             if (Ukey.equals(user1.getUniqueKey())){
                 System.out.println("You have accessed your account. What would you like to do?");
